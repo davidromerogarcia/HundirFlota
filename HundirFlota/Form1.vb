@@ -15,6 +15,7 @@
         For x = 0 To 9
             For y = 0 To 9
                 salida = salida + "1     "
+
             Next
             salida = salida + vbNewLine
         Next
