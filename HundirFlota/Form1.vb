@@ -1,12 +1,11 @@
 ﻿Public Class Form1
-
     Dim g As New Game
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 
-    Private Sub mostrar_Click(sender As Object, e As EventArgs) 
+    Private Sub mostrar_Click(sender As Object, e As EventArgs)
         ' MessageBox.Show(salida)
 
     End Sub
@@ -29,8 +28,8 @@
 
 
 
-        Label1.Text = g.crearArray().ToString
-        beginning.Enabled = False
+        Label1.Text = g.updateArray().ToString
+        'beginning.Enabled = False
     End Sub
 
 
